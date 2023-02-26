@@ -70,11 +70,9 @@ html {font-family: 'Roboto', sans-serif;
 }
 .movie-info-title {
     text-transform: capitalize;
-    margin-top: 1rem;
-    /*add for animation*/
+    margin-top: 1rem; /*add for animation*/
     transform: translateY(-150px);
-    animation: slide-from-top 3.5s ease-in-out forwards;
-}
+    animation: slide-from-top 3.5s ease-in-out forwards;}
 
 @keyframes slide-from-top {
     80% {transform: translateY(20px);}
@@ -93,6 +91,7 @@ html {font-family: 'Roboto', sans-serif;
 .movie-duratin {
     margin-left: 1rem;
     letter-spacing: 0.1rem;
+    position: relative;
 }
 .movie-duratin:before {
     content: "\2022";
@@ -112,7 +111,7 @@ html {font-family: 'Roboto', sans-serif;
     margin-right: 2rem;
     height: 50px;
     width: 50px;
-    background-color: rgb(3, 37, 65);
+    background-color: rgb(49, 185, 22);
     border-radius: 50%;
 
 }
@@ -162,7 +161,7 @@ footer ul li {
     margin-bottom: 2rem;
 }
 footer ul li a {
-    text-decoration: none;
+    -moz-text-decoration-line: overline;
     text-transform: uppercase;
     font-size: 1.5rem;
-    color: #777;}
+    color: #777 ;}
